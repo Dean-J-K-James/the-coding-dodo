@@ -18,7 +18,7 @@ Once the state of each cell is initialised, a set of rules are applied, causing 
 
 If none of the above rules apply, the cell remains in it's current state. The game of life starts at generation 0. When the rules are applied to every cell once, the game is then in generation 1. Each time the rules are fully applied to every cell, the generation increases and the grid is rerendered.
 
-![Game of Life After 1000 Generations](/assets/images/{{ page.slug }}/figure1.png)
+![Game of Life After 1000 Generations](/assets/images{{ page.url}}/figure1.png)
 
 > **Figure 1** - Game of Life After 1000 Generations.
 
@@ -72,7 +72,7 @@ The initial state of each cell can determine what sort of animation we get. We w
 
 It iterates over each cell in our grid, randomly setting it to either `live` or `dead` . This will produce a grid like in *Figure 2*.
 
-![Randomised Grid](/assets/images/{{ page.slug }}/figure2.png)
+![Randomised Grid](/assets/images{{ page.url}}/figure2.png)
 
 > **Figure 2** - Two-dimensional grid of cells in a random state.
 
@@ -134,7 +134,7 @@ In a square grid like the one we are using, there are 8 possible neighbouring ce
 
 Consider the four examples in *Figure 3*.
 
-![Four Example Neighbourhoods](/assets/images/{{ page.slug }}/figure3.png)
+![Four Example Neighbourhoods](/assets/images{{ page.url}}/figure3.png)
 
 > **Figure 3** - Four example cells and their neighbourhoods.
 

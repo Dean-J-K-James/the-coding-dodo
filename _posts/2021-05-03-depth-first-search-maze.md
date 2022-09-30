@@ -2,7 +2,6 @@
 title: Depth First Search Maze
 category: Algorithms
 tags: DFS Maze
-thumbnail: depth-first-search-maze/thumbnail.png
 ---
 
 Use a randomised variation of the depth first search algorithm to generate a fully connected maze.
@@ -11,7 +10,7 @@ Use a randomised variation of the depth first search algorithm to generate a ful
 
 Depth first search (DFS) is an algorithm most commonly used to traverse a graph, exploring the full length of each branch, one at a time, until a goal is found. By randomising the algorithm, and removing the termination condition, it can be used to generate a maze in a 2D grid.
 
-![Example Maze Generated Using a Randomised Depth First Search](/assets/images/{{ page.slug }}/figure1.png)
+![Example Maze Generated Using a Randomised Depth First Search](/assets/images{{ page.url}}/figure1.png)
 > **Figure 1** - Example Maze Generated Using a Randomised Depth First Search
 
 A maze generated using DFS will be fully connected, and look similar to *Figure 1*.
@@ -103,7 +102,7 @@ Finally, the `add_cell_neighbours` function is called. This adds the neighbours 
 
 The `draw_path` function is where the four values for each cell in the stack become useful.
 
-![Example Maze Generated Using a Randomised Depth First Search](/assets/images/{{ page.slug }}/figure2.png)
+![Example Maze Generated Using a Randomised Depth First Search](/assets/images{{ page.url}}/figure2.png)
 > **Figure 2** - Example Maze Generated Using a Randomised Depth First Search
 
 Notice that in any maze we generate, like the one in *Figure 2*, only the even rows and even columns have continous paths. All of the odd rows and odd columns only have connecting paths. The maze is generated like this to ensure different passageways don't connect. To achieve this effect, each time a new path is added, it has to be exactly two cells away from the previous. Then, the single cell inbetween the original and new path gets filled in to connect them.

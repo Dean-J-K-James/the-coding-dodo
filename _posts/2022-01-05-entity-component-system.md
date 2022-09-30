@@ -9,7 +9,7 @@ Learn about the entity component system software pattern, and how it differs to 
 
 Entity Component System (ECS) is a software pattern commonly used in game development. It is designed to take full advantage of a computer’s hardware to maximize performance, whilst also providing the programmer with a structured, modular, and reusable environment.
 
-![ECS Parts](/assets/images/{{ page.slug }}/figure1.png)
+![ECS Parts](/assets/images{{ page.url}}/figure1.png)
 > **Figure 1** - ECS Parts
 
 ECS, as it's name suggests, comprises three parts: entities, components, and systems. Each of these three parts have their own purpose and responsibilities within an ECS framework, and interact with each other in their own ways.
@@ -26,7 +26,7 @@ ECS is often used as an alternative to the traditional object oriented approach 
 
 In object oriented programming, data and functionality are kept tightly encapsulated within classes, promoting inheritance like in the following diagram:
 
-![Our Example Game Using OOP](/assets/images/{{ page.slug }}/figure2.png)
+![Our Example Game Using OOP](/assets/images{{ page.url}}/figure2.png)
 > **Figure 2** - Our Example Game Using OOP
 
 Let's implement this inheritence diagram using OOP. We define a class, `GameObject` which contains all the functionality and data that is common between our features. This class could look something like this:
@@ -114,7 +114,7 @@ Where possible, components should only contain primitive data types like integer
 
 Components are lightweight data containers that define the attributes and state of an entity. They contain no functionality, just data. *Figure 3* shows some example components.
 
-![Example Components](/assets/images/{{ page.slug }}/figure3.png)
+![Example Components](/assets/images{{ page.url}}/figure3.png)
 > **Figure 3** - Example Components
 
 Considering the four entities in our game, they could have the following components:

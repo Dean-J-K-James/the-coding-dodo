@@ -1,4 +1,5 @@
 <div class="flex-fill"></div>
-<a href="/cookie-policy" class="card p-08 py-0"><strong>Cookie Policy</strong></a>
-<a href="/privacy-policy" class="card p-08 py-0"><strong>Privacy Policy</strong></a>
+{% for link in site.foot-links %}
+<a href="{{ link[1] }}" class="card p-08 py-0"><strong>{{ link[0] }}</strong></a>
+{% endfor %}
 <div class="flex-fill"></div>

@@ -10,7 +10,7 @@ Random walk uses a so-called walker cell to carve out a path in an n-dimensional
 
 Procedural cave and dungeon generation is a common feature in game development; whether it be a 2D top-down dungeon crawler, or a 3D voxel first person shooter, procedurally generated caves and dungeons add varied, unique environments for the player to experience.
 
-![Example Cave Generated Using Random Walk](/assets/images/{{ page.slug }}/figure1.png)
+![Example Cave Generated Using Random Walk](/assets/images{{ page.url}}/figure1.png)
 > **Figure 1** - Example Cave Generated Using Random Walk
 
 There are countless algorithms and techniques that can be used to generate caves, but perhaps the simplest is a random walk. The random walk algorithm can be used to quickly create fully connected, random looking caves of varying size and shape. It works by repeatedly traversing a grid in random directions, turning cells that are passed into a path. Once the random walk is done, the results will look similar to those in *Figure 1*.
@@ -91,7 +91,7 @@ On each iteration of the algorithm, the data is never quality tested. The only v
 * The next walker position is already a path. This is desirable because it keeps the size of the cave random and unpredictable.
 * If the walker is already at the edge of the grid, there is a 25% chance of the next coordinate being clamped and therefore not changing. This can cause the undesirable effect of having our path "stick" to an edge, like in *Figure 2*.
 
-![Cave Sticking to Edge of Grid](/assets/images/{{ page.slug }}/figure2.png)
+![Cave Sticking to Edge of Grid](/assets/images{{ page.url}}/figure2.png)
 > **Figure 2** - Cave Sticking to Edge of Grid
 
 There are several ways the problem of having our cave stick to the edge can be fixed. One could be that when choosing a random direction to move our walker, we only choose directions that are valid. For example, if our walker is right on the east border, only allowing the north, south and west directions to be chosen will force the walker to move away from the edge.

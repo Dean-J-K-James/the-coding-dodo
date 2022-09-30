@@ -2,14 +2,14 @@
 <meta charset="utf-8">
 <meta name="viewport"            content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="title"               content="{{ page.title }}">
-<meta name="image"               content="{{ page.thumbnail | prepend: "/assets/images/" | absolute_url }}">
+<meta name="image"               content="{{ page.url | prepend: "/assets/images" | append: "/thumbnail.png" | absolute_url }}">
 <meta name="description"         content="{{ page.excerpt | remove: '<p>' | remove: '</p>' | strip_newlines }}">
 <meta property="og:title"        content="{{ page.title }}">
-<meta property="og:image"        content="{{ page.thumbnail | prepend: "/assets/images/" | absolute_url }}">
+<meta property="og:image"        content="{{ page.url | prepend: "/assets/images" | append: "/thumbnail.png" | absolute_url }}">
 <meta property="og:description"  content="{{ page.excerpt | remove: '<p>' | remove: '</p>' | strip_newlines }}">
 <meta name="twitter:card"        content="summary">
 <meta name="twitter:title"       content="{{ page.title }}">
-<meta name="twitter:image"       content="{{ page.thumbnail | prepend: "/assets/images/" | absolute_url }}">
+<meta name="twitter:image"       content="{{ page.url | prepend: "/assets/images" | append: "/thumbnail.png" | absolute_url }}">
 <meta name="twitter:description" content="{{ page.excerpt | remove: '<p>' | remove: '</p>' | strip_newlines }}">
 <meta name="robots"              content="index, follow">
 <link rel="canonical"            href="{{ page.url | absolute_url }}">

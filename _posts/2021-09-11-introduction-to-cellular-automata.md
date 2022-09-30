@@ -9,7 +9,7 @@ Learn about cellular automata, including how they are structured, how they evolv
 
 A cellular automaton (plural: cellular automata), or CA, is an n-dimensional grid of cells, each in one of m possible states. This grid can be visualised, as shown by *Figure 1*. This example shows a 16x8 two-dimensional cellular automaton, where cells are coloured either black or white, each representing one of two states.
 
-![Example Cellular Automata](/assets/images/{{ page.slug }}/figure1.png)
+![Example Cellular Automata](/assets/images{{ page.url}}/figure1.png)
 > **Figure 1** - Example Cellular Automata
 
 Cellular automata by themselves are just a static grid and don't do anything. However, when a set of rules are applied, cells change based on their state, and the states of their neighbours.
@@ -20,7 +20,7 @@ Perhaps the most famous cellular automaton is Conway's Game of Life. The Game of
 
 Cellular automata consist of cells, each in one of `m` possible states, where `m` is a finite integer. When visualised, cells can be coloured according to their state.
 
-![One-Dimensional Cellular Automata](/assets/images/{{ page.slug }}/figure2.png)
+![One-Dimensional Cellular Automata](/assets/images{{ page.url}}/figure2.png)
 > **Figure 2** - One-Dimensional Cellular Automata.
 
 *Figure 2* shows a one-dimensional CA of size 11, with a value of `m = 3`, meaning each cell can be in one of three states. Cells in state 0 are coloured white, cells in state 1 are coloured grey, and cells in state 2 are coloured black.
@@ -35,7 +35,7 @@ A single instance/ snapshot of a CA, with each cell having a state, is called a 
 
 Comparisons between consecutive generations allow programmers to evaluate and observe different patterns. For example, the four generations in *Figure 3* show the so-called "blinker" pattern found in Conway's Game of Life.
 
-![Four Generations of a 3x3 CA](/assets/images/{{ page.slug }}/figure3.png)
+![Four Generations of a 3x3 CA](/assets/images{{ page.url}}/figure3.png)
 > **Figure 3** - Four Generations of a 3x3 CA
 
 This type of pattern is called an oscillator pattern, because over the course of several generations, the states of each cell oscillate.

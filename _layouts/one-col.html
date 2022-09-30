@@ -1,0 +1,9 @@
+---
+layout: default
+---
+
+<div id="cell-page" class="flex-col flex-16">
+    {% for section in page.pages %}
+    {% include {{ section }}.html %}
+    {% endfor %}
+</div>

@@ -10,7 +10,7 @@ Most websites tend to be structured through a combination of flex and absolute p
 
 One of the great aspects of web development is there are always multiple ways of achieving the same goal. This is especially the case when it comes to structuring a page using HTML and CSS. Over the years, different techniques have been used for creating a page layout, and as requirements and tendencies have changed, new methods have been introduced. Most recently, there has been a shift towards pages that adapt to different screen sizes. A web page now needs to look good both on large desktop screens, and on small mobile displays.
 
-![Some Example Page Layouts](/assets/images/{{ page.slug }}/figure1.png)
+![Some Example Page Layouts](/assets/images{{ page.url}}/figure1.png)
 
 > **Figure 1** - Some example page layouts on a desktop screen.
 
@@ -35,7 +35,7 @@ Consider the following HTML code:
 
 This is the typical structure for an average webpage. We want a menu bar that stretches across the top of the page, a foot bar that stretches across the bottom of a page, and two columns in the middle, like in *Figure 2*.
 
-![Two Column Layout](/assets/images/{{ page.slug }}/figure2.png)
+![Two Column Layout](/assets/images{{ page.url}}/figure2.png)
 
 > **Figure 2** - An example two column layout.
 
@@ -108,7 +108,7 @@ Our grid uses two columns and three rows as specified in the `grid-template-colu
 * The value for the second row is `"page side"`. This means the grid element with identifier `page` is the first column (with size `1fr`) and the grid element with identifier `side` is the second column (with size `256px`).
 * The value for the third row is `"foot foot"`. Like with the first row, this means the grid element with identifier `foot` will take up two columns of space.
 
-![Two Column Layout In Desktop and Mobile Views](/assets/images/{{ page.slug }}/figure3.png)
+![Two Column Layout In Desktop and Mobile Views](/assets/images{{ page.url}}/figure3.png)
 
 > **Figure 3** - Our two column layout in both a desktop and mobile view.
 

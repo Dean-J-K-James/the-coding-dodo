@@ -87,9 +87,9 @@ Fortunately, there is a way to solve this problem; using the attributes `async` 
 
 By putting either of these attributes into a script tag, the script will be downloaded asynchronously from the server. This means, that when the browser requests the files, it continues parsing the HTML document rather than waiting. In both cases, HTML parsing still gets paused whilst the script gets executed. The difference between these attributes is what happens when the file has finished downloading.
 
-![Diagram Key](/assets/images/{{ page.slug }}/figure5.png)
+![Diagram Key](/assets/images{{ page.url}}/figure5.png)
 
-![Script Download and Execution Normally](/assets/images/{{ page.slug }}/figure1.png)
+![Script Download and Execution Normally](/assets/images{{ page.url}}/figure1.png)
 
 > **Figure 1** - Script download and execution normally.
 
@@ -103,9 +103,9 @@ By putting either of these attributes into a script tag, the script will be down
 
 If the `defer` attribute is used, the scripts do not execute as soon as they have finished downloading. Instead, the execution gets deferred until the HTML document has finished being parsed completely. Scripts using `defer` will execute right at the end, and in the same order that the script tag for them was specified.
 
-![Diagram Key](/assets/images/{{ page.slug }}/figure5.png)
+![Diagram Key](/assets/images{{ page.url}}/figure5.png)
 
-![Script Download and Execution When Using Defer](/assets/images/{{ page.slug }}/figure2.png)
+![Script Download and Execution When Using Defer](/assets/images{{ page.url}}/figure2.png)
 
 > **Figure 2** - Script download and execution when using defer.
 
@@ -120,9 +120,9 @@ If the `defer` attribute is used, the scripts do not execute as soon as they hav
 
 If `async` was used, the script file will be executed as soon as it is downloaded. If multiple scripts are downloaded using async, each will be executed once it has finished downloading. If the download finishes whilst another script is being executed, the new script will execute immediately after. They will not necessarily execute in the same order as the download starts. If the first script to load using async is significantly larger than the second, it is possible that the second will finish downloading first and therefore will be executed first.
 
-![Diagram Key](/assets/images/{{ page.slug }}/figure5.png)
+![Diagram Key](/assets/images{{ page.url}}/figure5.png)
 
-![Script Download and Execution When Using Async](/assets/images/{{ page.slug }}/figure3.png)
+![Script Download and Execution When Using Async](/assets/images{{ page.url}}/figure3.png)
 
 > **Figure 3** - Script download and execution when using async.
 

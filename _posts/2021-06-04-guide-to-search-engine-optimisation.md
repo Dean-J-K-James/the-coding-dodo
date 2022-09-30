@@ -22,7 +22,7 @@ Replace `<url>` with your website's domain name. If there are no results, your w
 
 For example, if we search for `site:wikipedia.com`, we can see all the pages on wikipedia that are indexed. The results are shown in *Figure 1*.
 
-![Wikipedia Indexing](/assets/images/{{ page.slug }}/figure1.png)
+![Wikipedia Indexing](/assets/images{{ page.url}}/figure1.png)
 > **Figure 1** - Wikipedia Indexing
 
 To be indexed, a website must be analysed by a search engine crawler. When a crawler analyses a webpage, it gathers as much information about that webpage as it can, decides whether it should be indexed or not, and then chooses how important that webpage should be, determining how much priority to give it on the search engine results page.
@@ -50,7 +50,7 @@ Located in the `<head>` part of a webpage, the `<title>` tag informs search engi
 
 Social media is a great place to advertise your website; but to improve the number of visitors, your links need to stand out. Consider the screenshot of a tweet in *Figure 2*:
 
-![Basic Link on Twitter](/assets/images/{{ page.slug }}/figure2.png)
+![Basic Link on Twitter](/assets/images{{ page.url}}/figure2.png)
 > **Figure 2** - Basic Link on Twitter
 
 Merely posting a link will result in a boring text-based URL. Most potential visitors will likely just skip over the link without even considering it. That is where social media meta tags become useful. Consider the following three meta tags:
@@ -61,7 +61,7 @@ Merely posting a link will result in a boring text-based URL. Most potential vis
 
 These tags form part of the open graph protocol (notice the "og" property) and provide pieces of information that can be used by social media sites to make your links more visually appealing. By placing these meta tags in the `<head>` section of a HTML document, your links will get formatted on social media, like in *Figure 3*.
 
-![Twitter Summary Card](/assets/images/{{ page.slug }}/figure3.png)
+![Twitter Summary Card](/assets/images{{ page.url}}/figure3.png)
 > **Figure 3** - Twitter Summary Card
 
 Open graph protocol meta tags are the most popular, and will work on Facebook, Twitter, and LinkedIn. There are, however, some Twitter specific alternatives that should be considered.

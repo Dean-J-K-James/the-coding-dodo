@@ -1,6 +1,6 @@
 <div class="card flex-col flex-16 p-16 rounded-04">
     <a href="{{ post.url }}" class="flex-col flex-16">
-        <div style="overflow:hidden;"><img src="/assets/images/{{ post.slug }}/banner.png"></div>
+        <div style="overflow:hidden;"><img src="/assets/images{{ post.url }}/banner.png"></div>
         <div class="flex-col flex-08">
             <sub>{{ post.date | date_to_string }}</sub>
             <h4>{{ post.title }}</h4>
