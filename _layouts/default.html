@@ -1,0 +1,19 @@
+---
+---
+
+<!doctype html>
+
+<html lang="en">
+
+<head>
+    {% include head.html %}
+</head>
+
+<body>
+    <div id="cook" class="{{ page.cook_class }}">{% include cook.html %}</div>
+    <nav id="menu" class="{{ page.menu_class }}">{% include menu.html %}</nav>
+    <div id="page" class="{{ page.page_class }}">{{ content }}</div>
+    <nav id="foot" class="{{ page.foot_class }}">{% include foot.html %}</nav>
+</body>
+
+</html>

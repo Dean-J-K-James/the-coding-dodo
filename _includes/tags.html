@@ -1,0 +1,6 @@
+<div class="flex-row flex-04">
+    <div class="tag">{{ include.container.category }}</div>
+    {% for tag in include.container.tags %}
+    <div class="tag">{{ tag }}</div>
+    {% endfor %}
+</div>
