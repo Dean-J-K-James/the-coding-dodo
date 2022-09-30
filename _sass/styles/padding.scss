@@ -1,0 +1,36 @@
+.p-64 {
+    padding: 64px;
+}
+
+.p-32 {
+    padding: 32px;
+}
+
+.p-16 {
+    padding: 16px;
+}
+
+.p-08 {
+    padding: 08px;
+}
+
+.p-04 {
+    padding: 04px;
+}
+
+.py-0 {
+    padding-top   : 00px;
+    padding-bottom: 00px;
+}
+
+.px-0 {
+    padding-right: 00px;
+    padding-left : 00px;
+}
+
+@media screen and (min-width: 1024px) {
+    .px-d-20 {
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+}

@@ -1,0 +1,16 @@
+.album-2 {
+    display       : flex;
+    flex-direction: row;
+    flex-wrap     : wrap;
+}
+
+.album-2>* {
+    min-width: 040%;
+    flex     : 0001;
+}
+
+@media screen and (max-width: 768px) {
+    .album-2>* {
+        min-width: 080%;
+    }
+}

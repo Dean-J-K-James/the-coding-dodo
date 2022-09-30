@@ -1,0 +1,17 @@
+#cook {
+    background-color: $colour-cook;
+    color           : $colour-cook-text;
+    grid-area       : cook;
+    display         : none;
+}
+
+#cook .card {
+    background-color: $colour-cook;
+    color           : $colour-cook-text;
+}
+
+#cook .card.active,
+#cook .card:hover {
+    background-color: $colour-cook-accent;
+    color           : $colour-cook-accent-text;
+}

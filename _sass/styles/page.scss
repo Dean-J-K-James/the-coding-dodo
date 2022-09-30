@@ -1,0 +1,31 @@
+#page {
+    height    : 100%;
+    display   : grid;
+    grid-area : body;
+    box-sizing:border-box;
+}
+
+#page .card {
+    background-color: $colour-card;
+    color           : $colour-card-text;
+    overflow        : hidden;
+}
+
+#page .card.active,
+#page .card:hover {
+    background-color: $colour-card-accent;
+    color           : $colour-card-accent-text;
+}
+
+@media screen and (max-width: 1024px) {
+    #page {
+        padding: 08px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    #page {
+        grid-template-columns: minmax(0, 1fr);
+        grid-template-areas  : "page" "side";
+    }
+}

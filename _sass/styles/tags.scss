@@ -1,0 +1,14 @@
+.tag {
+    background-color: $colour-tag;
+    border          : 1px solid $colour-border;
+    color           : $colour-tag-text;
+    font-size       : 12px;
+    font-weight     : normal;
+    padding         : 04px 06px;
+}
+
+.tag:hover {
+    background-color: $colour-tip;
+    border          : 1px solid $colour-tip-text;
+    color           : $colour-tip-text;
+}

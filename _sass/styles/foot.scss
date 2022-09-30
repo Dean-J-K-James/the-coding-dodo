@@ -1,0 +1,16 @@
+#foot {
+    background-color: $colour-foot;
+    color           : $colour-foot-text;
+    grid-area       : foot;
+}
+
+#foot .card {
+    background-color: $colour-foot;
+    color           : $colour-foot-text;
+}
+
+#foot .card.active,
+#foot .card:hover {
+    background-color: $colour-foot-accent;
+    color           : $colour-foot-accent-text;
+}

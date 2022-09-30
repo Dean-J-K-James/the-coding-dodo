@@ -1,0 +1,16 @@
+#menu {
+    background-color: $colour-menu;
+    color           : $colour-menu-text;
+    grid-area       : menu;
+}
+
+#menu .card {
+    background-color: $colour-menu;
+    color           : $colour-menu-text;
+}
+
+#menu .card.active,
+#menu .card:hover {
+    background-color: $colour-menu-accent;
+    color           : $colour-menu-accent-text;
+}

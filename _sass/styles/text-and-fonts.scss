@@ -1,0 +1,80 @@
+h1 {
+    border-bottom: 1px solid $colour-border;
+    color        : $colour-h1;
+    font-size    : 32px;
+    font-weight  : bold;
+    line-height  : 56px;
+}
+
+h2 {
+    border-bottom: 1px solid $colour-border;
+    color        : $colour-h2;
+    font-family  :'Segoe UI', sans-serif;
+    font-size    : 20px;
+    font-weight  : bold;
+    line-height  : 44px;
+}
+
+h3 {
+    border-bottom: 1px solid $colour-border;
+    color        : $colour-h3;
+    font-family  :'Segoe UI', sans-serif;
+    font-size    : 16px;
+    font-weight  : bold;
+    line-height  : 32px;
+}
+
+h4 {
+    color      : $colour-h4;
+    font-family  :'Segoe UI', sans-serif;
+    font-size  : 16px;
+    font-weight: bold;
+}
+
+p,
+td,
+li {
+    color       : $colour-p;
+    font-family :'Segoe UI', sans-serif;
+    font-size   : 14px;
+    font-weight : normal;
+    line-height : 24px;
+    text-align  : justify;
+    text-justify: inter-word;
+}
+
+label,
+th {
+    font-size  : 12px;
+    font-weight: bold;
+    text-align : left;
+    margin     : 00px;
+}
+
+sub,
+blockquote p {
+    color      : $colour-subtitle;
+    font-size  : 12px;
+    font-weight: normal;
+    margin     : 00px;
+}
+
+blockquote p {
+    text-align: center;
+}
+
+li {
+    margin-bottom: 00px;
+}
+
+ul,
+ol {
+    font-size          : 14px;
+    list-style-position: inside;
+    padding-left       : 16px;
+}
+
+hr {
+    border    : none;
+    border-top: 01px solid $colour-border;
+}

@@ -1,0 +1,27 @@
+* {
+    border-radius: 00px;
+    position     : relative;
+    margin       : 00px;
+    padding      : 00px;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    background           : $colour-body;
+    font-family          : 'Arial', sans-serif;
+    font-size            : 12px;
+    min-height           : 100%;
+    overflow-y           : scroll;
+    display              : grid;
+    grid-template-columns: 01fr;
+    grid-template-rows   : min-content min-content 01fr min-content;
+    align-items          : self-start;
+    grid-template-areas  :
+        "cook"
+        "menu"
+        "body"
+        "foot";
+}

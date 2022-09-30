@@ -1,0 +1,19 @@
+.one-col {
+    grid-template-columns: minmax(0, 1fr);
+    grid-template-areas  : "page";
+}
+
+.two-col-s-f {
+    grid-template-columns: minmax(0, 1fr) minmax(0px, 320px);
+    grid-template-areas  : "page side";
+}
+
+.two-col-s-s {
+    grid-template-columns: repeat(2, 01fr);
+    grid-template-areas  : "page side";
+}
+
+.two-col-f-s {
+    grid-template-columns: minmax(0px, 256px) minmax(0, 1fr);
+    grid-template-areas  : "side page";
+}

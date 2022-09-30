@@ -1,0 +1,12 @@
+#cell-page {
+    grid-area: page;
+}
+
+#cell-side {
+    grid-area: side;
+}
+
+.cell {
+    background-color: $colour-cell;
+    color           : $colour-cell-text;
+}

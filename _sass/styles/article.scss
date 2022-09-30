@@ -1,0 +1,10 @@
+article a {
+    background-color: $colour-link;
+    color           : $colour-link-text;
+    padding         : 02px 04px;
+}
+
+article a.active,
+article a:hover {
+    background-color: $colour-link-accent;
+}

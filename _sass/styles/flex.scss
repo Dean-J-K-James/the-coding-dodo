@@ -1,0 +1,58 @@
+.flex-col {
+    display       : flex;
+    flex-direction: column;
+}
+
+.flex-row {
+    display       : flex;
+    flex-direction: row;
+}
+
+.flex-fill {
+    flex: 0001;
+}
+
+.flex-64 {
+    gap: 64px;
+}
+
+.flex-32 {
+    gap: 32px;
+}
+
+.flex-16 {
+    gap: 16px;
+}
+
+.flex-08 {
+    gap: 08px;
+}
+
+.flex-04 {
+    gap: 04px;
+}
+
+.flex-album-2,
+.flex-album-3 {
+    display       : flex;
+    flex-direction: row;
+    flex-wrap     : wrap;
+}
+
+.flex-album-2 > * {
+    min-width: 040%;
+    flex     : 0001;
+}
+
+
+.flex-album-3 > * {
+    min-width: 025%;
+    flex     : 0001;
+}
+
+@media screen and (max-width: 768px) {
+    .flex-album-2 > *,
+    .flex-album-3 > * {
+        min-width: 080%;
+    }
+}
