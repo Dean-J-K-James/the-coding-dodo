@@ -1,3 +1,5 @@
+baseurl: "thecodingdodo"
+
 defaults:
   - scope:
       path: ""
@@ -14,6 +16,8 @@ defaults:
       page_class: "one-col p-32 px-d-20"
       foot_class: "flex-row flex-08 p-32 px-d-20 line-32"
 
+plugins:
+  - jekyll-sitemap
 
 collections:
   posts:
