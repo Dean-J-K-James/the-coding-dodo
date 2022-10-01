@@ -17,22 +17,20 @@ defaults:
       path: ""
       type: "posts"
     values:
-      layout: "post"
+      layout: "two-col"
       permalink: blog/:slug
-      page_class: "two-col-s-f flex-16 p-32 px-d-20"
       pages: [title, banner, blog]
       sides: [all-posts-same-category]
   - scope:
       path: ""
     values:
       layout: "default"
-      page_class: "one-col p-32 px-d-20"
   - scope:
       path: ""
       type: "pages"
     values:
       layout: "one-col"
-      pages: [information]
+      pages: [blog]
 
 ######################
 # --- Menu Links --- #

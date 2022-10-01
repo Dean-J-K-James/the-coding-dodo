@@ -6,13 +6,17 @@
 <html lang="en">
 
 <head>
-    {% include head.html %}
+    {% include page-meta.html %}
+    {% include meta-seo-tags.html %}
+    {% include meta-links.html %}
+    {% include js-scripts.html %}
+    {% include google-analytics.html %}
 </head>
 
 <body>
     <div id="cook" class="flex-row flex-08 p-08 px-d-20 line-32">{% include cook.html %}</div>
     <nav id="menu" class="flex-row flex-08 p-08 px-d-20 line-32">{% include menu.html %}</nav>
-    <div id="page" class="{{ page.page_class }}">{{ content }}</div>
+    {{ content }}
     <nav id="foot" class="flex-row flex-08 p-32 px-d-20 line-32">{% include foot.html %}</nav>
 </body>
 
