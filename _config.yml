@@ -3,6 +3,7 @@
 ########################
 
 baseurl: ""
+url: "https://thecodingdodo.com"
 
 #########################################
 # --- Default Options for All Pages --- #
