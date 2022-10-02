@@ -4,9 +4,8 @@
         <div class="flex-col flex-08">
             <sub>{{ post.date | date_to_string }}</sub>
             <h4>{{ post.title }}</h4>
-            <div class="short-text">{{ post.excerpt }}</div>
+            <p class="short-text">{{ post.description }}</p>
         </div>
     </a>
-
     {% include tags.html container=post %}
 </div>

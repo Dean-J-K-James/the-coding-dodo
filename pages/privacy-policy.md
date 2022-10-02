@@ -1,5 +1,7 @@
 ---
-permalink: privacy-policy
+title:       Privacy Policy
+permalink:   privacy-policy
+description: Privacy policy for this website.
 ---
 
 # Privacy Policy

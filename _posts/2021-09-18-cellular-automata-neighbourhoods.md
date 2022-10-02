@@ -1,9 +1,8 @@
 ---
-title: Cellular Automata Neighbourhoods
-category: CellularAutomata
+title:       Cellular Automata Neighbourhoods
+description: Find out how neighbourhoods are calculated in one-dimensional and two-dimensional cellular automata, including the von Neumann and Moore neighbourhoods.
+category:    CellularAutomata
 ---
-
-Find out how neighbourhoods are calculated in one-dimensional and two-dimensional cellular automata, including the von Neumann and Moore neighbourhoods.
 
 ## Neighbourhood
 

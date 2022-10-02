@@ -1,10 +1,9 @@
 ---
-title: Game of Life
-category: Algorithms
-tags: CellularAutomata
+title:       Game of Life
+description: Create a two-dimensional cellular automaton with the rules of Conway's Game of Life.
+category:    Algorithms
+tags:        CellularAutomata
 ---
-
-Create a two-dimensional cellular automaton with the rules of Conway's Game of Life.
 
 ## What is Conway's Game of Life?
 

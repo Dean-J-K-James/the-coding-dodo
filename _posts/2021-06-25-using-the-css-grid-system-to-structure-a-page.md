@@ -1,10 +1,9 @@
 ---
-title: Using the Grid System to Structure a Page
-category: Web
-tags: CSS
+title:       Using the Grid System to Structure a Page
+description: Most websites tend to be structured through a combination of flex and absolute positioning. An elegant, and overlooked alternative is the grid system. This tutorial explores this system in more detail, creating a responsive and mobile friendly page structure.
+category:    Web
+tags:        CSS
 ---
-
-Most websites tend to be structured through a combination of flex and absolute positioning. An elegant, and overlooked alternative is the grid system. This tutorial explores this system in more detail, creating a responsive and mobile friendly page structure.
 
 ## Using HTML and CSS to Structure a Page
 

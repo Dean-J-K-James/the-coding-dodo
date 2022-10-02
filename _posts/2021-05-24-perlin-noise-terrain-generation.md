@@ -1,10 +1,9 @@
 ---
-title: Perlin Noise Terrain Generation
-category: Algorithms
-tags: Terrain Noise
+title:       Perlin Noise Terrain Generation
+description: Explore how to generate 2D height maps using both static and Perlin noise. Then use these to create infinite, continental terrain on a 2D tilemap.
+category:    Algorithms
+tags:        Terrain Noise
 ---
-
-Explore how to generate 2D height maps using both static and Perlin noise. Then use these to create infinite, continental terrain on a 2D tilemap.
 
 ## What is Noise?
 

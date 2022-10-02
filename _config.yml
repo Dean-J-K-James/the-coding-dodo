@@ -17,9 +17,9 @@ defaults:
       path: ""
       type: "posts"
     values:
-      layout: "two-col"
+      layout: "two-column"
       permalink: blog/:slug
-      pages: [title, banner, blog]
+      pages: [title, banner, content]
       sides: [all-posts-same-category]
   - scope:
       path: ""
@@ -29,24 +29,8 @@ defaults:
       path: ""
       type: "pages"
     values:
-      layout: "one-col"
-      pages: [blog]
-
-######################
-# --- Menu Links --- #
-######################
-
-menu-links:
-  Blog: "/"
-  About Me: "/about-me"
-
-######################
-# --- Foot Links --- #
-######################
-
-foot-links:
-  Cookie Policy: "/cookie-policy"
-  Privacy Policy: "/privacy-policy"
+      layout: "one-column"
+      pages: [content]
 
 ########################
 # --- Social Media --- #
@@ -61,3 +45,10 @@ social-media:
 
 plugins:
   - jekyll-sitemap
+  - jekyll-remote-theme
+
+########################
+# --- Custom Theme --- #
+########################
+
+remote_theme: Dean-J-K-James/dodo-web-engine-jekyll-theme

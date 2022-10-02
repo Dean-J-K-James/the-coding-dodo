@@ -1,10 +1,9 @@
 ---
-title: Depth First Search Maze
-category: Algorithms
-tags: DFS Maze
+title:       Depth First Search Maze
+description: Use a randomised variation of the depth first search algorithm to generate a fully connected maze.
+category:    Algorithms
+tags:        DFS Maze
 ---
-
-Use a randomised variation of the depth first search algorithm to generate a fully connected maze.
 
 ## Introduction to Depth First Search
 

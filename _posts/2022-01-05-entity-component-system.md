@@ -1,9 +1,9 @@
 ---
-title: Entity Component System
-category: SoftwarePatterns
+title:       Entity Component System
+description: Learn about the entity component system software pattern, and how it differs to the traditional object oriented approach.
+category:    SoftwarePatterns
+tags:        ECS
 ---
-
-Learn about the entity component system software pattern, and how it differs to the traditional object oriented approach.
 
 ## What is Entity Component System?
 
