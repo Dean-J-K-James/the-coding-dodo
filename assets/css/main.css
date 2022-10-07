@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+h1 { @apply border-b border-[#e7e7e7] text-[#4279CE] font-bold text-3xl leading-[3.5rem] }
+h2 { @apply border-b border-[#e7e7e7] text-[#4279CE] font-bold text-xl leading-[2.75rem] }
+h3 { @apply border-b border-[#e7e7e7] text-[#4279CE] font-bold text-sm leading-8 }
+h4 { @apply border-0 border-[#e7e7e7] text-[#4279CE] font-bold text-base leading-8 }
+
+p  { @apply font-["Segoe_UI"] text-[#797979] text-sm leading-6 text-justify }
+ul { @apply font-["Segoe_UI"] text-[#797979] text-sm leading-6 text-justify pl-4 list-inside list-disc }
+
+blockquote p { @apply text-[#979797] text-xs text-center }
+
+img { @apply mx-auto }
+
+pre      { @apply bg-[#F1F1F1] p-4 }
+code     { @apply bg-[#DDE7FB] text-[#4279CE] text-sm py-0.5 px-1 }
+pre>code { @apply bg-[#F1F1F1] text-[#797979] p-0 }

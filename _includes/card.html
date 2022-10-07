@@ -1,11 +1,9 @@
-<div class="card flex-col flex-16 p-16 rounded-04">
-    <a href="{{ post.url }}" class="flex-col flex-16">
-        <div style="overflow:hidden;"><img src="/assets/images{{ post.url }}/banner.png"></div>
-        <div class="flex-col flex-08">
-            <sub>{{ post.date | date_to_string }}</sub>
-            <h4>{{ post.title }}</h4>
-            <p class="short-text">{{ post.description }}</p>
-        </div>
-    </a>
-    {% include tags.html container=post %}
-</div>
+<a href="{{ post.url }}" class="flex flex-col col-span-12 gap-4 p-4 bg-white rounded md:col-span-6 lg:col-span-4">
+    <div style="overflow:hidden;"><img src="/assets/images{{ post.url }}/banner.png"></div>
+    {% assign date = post.date | date: "%-d %B %Y" %}
+    <h4>{{ post.title }}</h4>
+    {% include subtitle.html text=date %}
+    <p class="truncate">{{ post.description }}</p>
+    {% assign tags = post.tags | unshift: post.category %}
+    {% include tags.html tags=tags %}
+</a>

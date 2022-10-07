@@ -19,7 +19,7 @@ defaults:
     values:
       layout: "two-column"
       permalink: blog/:slug
-      pages: [title, banner, content]
+      pages: [title, banner, article]
       sides: [all-posts-same-category]
   - scope:
       path: ""
