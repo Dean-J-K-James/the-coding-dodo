@@ -10,6 +10,7 @@ module.exports = {
                 'menu-text': '#FFFFFF',
                 'menu-accent': '#609CEC',
                 'menu-accent-text': '#FFFFFF',
+                'divider': '#609CEC'
             }
         }
     }
