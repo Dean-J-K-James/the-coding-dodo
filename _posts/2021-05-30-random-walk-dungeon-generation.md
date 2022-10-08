@@ -28,7 +28,7 @@ The RogueBasin wiki page, [Random Walk Cave Generation](http://www.roguebasin.co
 
 ## Implementation
 
-<div class="tip">All code shown in this tutorial is written in JavaScript, however, it should be relatively easy to translate into another language.</div>
+All code shown in this tutorial is written in JavaScript, however, it should be relatively easy to translate into another language.
 
 ### Initialisation
 

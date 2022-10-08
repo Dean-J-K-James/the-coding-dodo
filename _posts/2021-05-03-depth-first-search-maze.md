@@ -30,7 +30,7 @@ The key difference with our DFS algorithm when compared to a standard DFS, is th
 
 ## Implementation
 
-<div class="tip">All code shown in this tutorial is pseudo code, however, it should be relatively easy to translate into another language. Click the link under the interactive demo to see a JavaScript implementation of the code.</div>
+All code shown in this tutorial is pseudo code, however, it should be relatively easy to translate into another language. Click the link under the interactive demo to see a JavaScript implementation of the code.
 
 The starting function in our implementation is the `dfs_maze` function.
 
@@ -68,7 +68,7 @@ We then need to add the first cell to the stack. The first cell to be added to t
 * `next_x` refers to the x coordinate of the cell this path is moving to.
 * `next_y` refers to the y coordinate of the cell this path is moving to.
 
-<div class="tip">It may seem confusing at first why each element added to the stack has four values. This will be explained later in the article. The starting cell doesn't have an original position, so both coordinates are set to the same values.</div>
+It may seem confusing at first why each element added to the stack has four values. This will be explained later in the article. The starting cell doesn't have an original position, so both coordinates are set to the same values.
 
 ### Evaluate Cell
 
@@ -108,7 +108,7 @@ Notice that in any maze we generate, like the one in *Figure 2*, only the even r
 
 The first two values in our cell, `last_x` and `last_y` represent the original cell, and the final two values `next_x` and `next_y` represent the new cell. We have to set both of these coordinates, and the cell inbetween them, to a path.
 
-<div class="tip">The original cell will already be a path. For simplicity we just reassign it as a path again.</div>
+The original cell will already be a path. For simplicity we just reassign it as a path again.
 
 The following code creates the passageway, which should be three cells long.
 

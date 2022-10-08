@@ -29,7 +29,7 @@ Linear interpolation can be achieved using the following function.
 
 The parameters, `a` and `b` , represent the minimum and maximum respectively (in this case 0 and 255), and `v` represents the value that needs interpolating (in this case, the noise value). 
 
-<div class="tip">The implementation and rendering of a grid is not shown in this tutorial, but many tutorials exist for creating tilemaps in various languages and engines.</div>
+The implementation and rendering of a grid is not shown in this tutorial, but many tutorials exist for creating tilemaps in various languages and engines.
 
 ## Static Noise
 
@@ -65,13 +65,13 @@ Generating a noise map using perlin noise is very similar to generating a static
 
 For each coordinate, we multiply the `x` and `y` by a variable, `scale`. This is used to adjust the "zoom" of our perlin noise map. By default, we use a value of 0.1 for `scale`.
 
-![Perlin Noise With Different Scale](/assets/images{{ page.url}}/figure3.png)
+![Perlin Noise With Different Scale](/assets/images{{ page.url }}/figure3.png)
 
 > **Figure 3** - A perlin noise map with scale 0.2.
 
 The image in *Figure 3* shows the same noise map as *Figure 2*, except with a scale of 0.2 instead of 0.1. A larger scale value creates noise maps that appear more "zoomed" out.
 
-<div class="tip">The perlin noise function itself will not be manually written for this tutorial, because there are lots of implementations for it in different languages and engines already (see end of page for some links). Replace `perlinNoise` with whatever implementation you use.</div>
+The perlin noise function itself will not be manually written for this tutorial, because there are lots of implementations for it in different languages and engines already (see end of page for some links). Replace `perlinNoise` with whatever implementation you use.
 
 ## Using Perlin Noise as Terrain
 
@@ -79,7 +79,7 @@ So far, all noise we have covered has been rendered as a greyscale texture, wher
 
 Instead of thinking of each noise value as noise, think of them as a height, or a density of terrain. Depending on the noise value, the cell becomes a different type of terrain. For example, any value below 0.5 gets classified as water, and any value above 0.5 gets classified as land, and so on...
 
-![Static Noise as Terrain](/assets/images{{ page.url}}/figure4.png)
+![Static Noise as Terrain](/assets/images{{ page.url }}/figure4.png)
 
 > **Figure 4** - Static noise map rendered by terrain type.
 
