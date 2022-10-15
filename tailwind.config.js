@@ -3,6 +3,7 @@ module.exports = {
     theme: {
         fontFamily: {
             'sans': ['Arial'],
+            'text': ['Segoe UI'],
         },
         extend: {
             colors: {

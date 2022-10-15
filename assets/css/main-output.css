@@ -681,6 +681,10 @@ video {
   gap: 0.25rem;
 }
 
+.overflow-hidden {
+  overflow: hidden;
+}
+
 .truncate {
   overflow: hidden;
   text-overflow: ellipsis;
@@ -715,17 +719,12 @@ video {
   background-color: rgb(241 241 241 / var(--tw-bg-opacity));
 }
 
-.bg-white {
+.bg-body-accent {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
 .bg-foot {
-  --tw-bg-opacity: 1;
-  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-}
-
-.bg-body-accent {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
@@ -830,7 +829,7 @@ h4 {
 
 p {
   text-align: justify;
-  font-family: "Segoe UI";
+  font-family: Segoe UI;
   font-size: 0.875rem;
   line-height: 1.5rem;
   --tw-text-opacity: 1;
@@ -841,7 +840,7 @@ ul,  ol {
   list-style-position: inside;
   padding-left: 1rem;
   text-align: justify;
-  font-family: "Segoe UI";
+  font-family: Segoe UI;
   font-size: 0.875rem;
   line-height: 1.5rem;
   --tw-text-opacity: 1;

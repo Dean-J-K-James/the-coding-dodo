@@ -7,8 +7,8 @@ h2 { @apply border-b border-[#e7e7e7] text-[#4279CE] font-bold text-xl leading-[
 h3 { @apply border-b border-[#e7e7e7] text-[#4279CE] font-bold text-sm leading-8 }
 h4 { @apply border-0 border-[#e7e7e7] text-[#4279CE] font-bold text-base leading-8 }
 
-p      { @apply font-["Segoe_UI"] text-[#797979] text-sm leading-6 text-justify }
-ul, ol { @apply font-["Segoe_UI"] text-[#797979] text-sm leading-6 text-justify pl-4 list-inside }
+p      { @apply font-text text-[#797979] text-sm leading-6 text-justify }
+ul, ol { @apply font-text text-[#797979] text-sm leading-6 text-justify pl-4 list-inside }
 
 ul { @apply list-disc }
 ol { @apply list-decimal }
