@@ -1,0 +1,11 @@
+<a href="{{ post.url }}" class="flex flex-row gap-4 p-4 bg-body-accent rounded">
+    <img class="w-32 h-32" src="/assets/images{{ post.url }}/thumbnail.png">
+    <div class="flex flex-col flex-grow flex-nowrap gap-2 min-w-0">
+        {% assign date = post.date | date: "%-d %B %Y" %}
+        <h4>{{ post.title }}</h4>
+        {% include subtitle.html text=date %}
+        <p class="truncate">{{ post.description }}</p>
+        {% assign tags = post.tags | unshift: post.category %}
+        {% include tags.html tags=tags %}
+    </div>
+</a>

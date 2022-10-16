@@ -19,6 +19,7 @@ module.exports = {
                 'foot-text': '#515151',
                 'foot-accent': '#DDE7FB',
                 'foot-accent-text': '#4279CE',
+                'link': '#4279CE',
                 'body': '#F1F1F1',
                 'body-accent': '#FFFFFF'
             }
