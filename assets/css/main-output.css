@@ -693,12 +693,12 @@ video {
   gap: 0.5rem;
 }
 
-.gap-8 {
-  gap: 2rem;
-}
-
 .gap-4 {
   gap: 1rem;
+}
+
+.gap-8 {
+  gap: 2rem;
 }
 
 .gap-1 {
@@ -857,8 +857,8 @@ h4 {
 
 p {
   text-align: justify;
-  font-family: Segoe UI;
-  font-size: 0.875rem;
+  font-family: Verdana;
+  font-size: 13px;
   line-height: 1.5rem;
   --tw-text-opacity: 1;
   color: rgb(121 121 121 / var(--tw-text-opacity));
@@ -868,8 +868,8 @@ ul,  ol {
   list-style-position: inside;
   padding-left: 1rem;
   text-align: justify;
-  font-family: Segoe UI;
-  font-size: 0.875rem;
+  font-family: Verdana;
+  font-size: 13px;
   line-height: 1.5rem;
   --tw-text-opacity: 1;
   color: rgb(121 121 121 / var(--tw-text-opacity));
@@ -923,8 +923,7 @@ code {
   padding-bottom: 0.125rem;
   padding-left: 0.25rem;
   padding-right: 0.25rem;
-  font-size: 0.875rem;
-  line-height: 1.25rem;
+  font-size: 13px;
   --tw-text-opacity: 1;
   color: rgb(66 121 206 / var(--tw-text-opacity));
 }
@@ -986,10 +985,6 @@ pre>code {
 
   .lg\:col-span-8 {
     grid-column: span 8 / span 8;
-  }
-
-  .lg\:gap-4 {
-    gap: 1rem;
   }
 
   .lg\:p-8 {

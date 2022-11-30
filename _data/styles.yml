@@ -3,26 +3,10 @@
 ##################
 
 # Menus
-cook:
-  inc: cook
-  tag: div
-  css: flex flex-row gap-2 text-xs leading-8 p-2 lg:px-[20%] bg-cook text-cook-text !hidden
-
-menu:
-  inc: menu
-  tag: nav
-  css: flex flex-row gap-2 text-xs leading-8 p-2 lg:px-[20%] bg-menu text-menu-text
-
-foot:
-  inc: foot
-  tag: nav
-  css: flex flex-row gap-2 text-xs leading-8 p-8 lg:px-[20%] bg-foot text-foot-text
-
-# Pages
-page:
-  inc: content
-  tag: div
-  css: grid grid-cols-12 flex-grow gap-2 lg:gap-4 p-2 lg:p-8 lg:px-[20%] bg-body text-body-text
+cook: lg:px-[20%] !hidden
+menu: lg:px-[20%]
+page: lg:px-[20%]
+foot: lg:px-[20%] p-8
 
 # Sections
 content:
@@ -38,7 +22,7 @@ all-posts:
 all-posts-same-category:
   inc: all-posts-same-category
   tag: div
-  css: flex flex-col gap-2 lg:gap-4
+  css: flex flex-col gap-4
 
 author:
   inc: author

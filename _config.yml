@@ -46,10 +46,3 @@ plugins:
 ########################
 
 remote_theme: Dean-J-K-James/dodo-web-engine-jekyll-theme
-
-#################################
-# --- Default Configuration --- #
-#################################
-
-# Structure
-structure: [cook, menu, page, foot]

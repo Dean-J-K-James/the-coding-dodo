@@ -7,8 +7,8 @@ h2 { @apply border-b border-[#e7e7e7] text-[#4279CE] font-bold text-xl leading-[
 h3 { @apply border-b border-[#e7e7e7] text-[#4279CE] font-bold text-sm leading-8 }
 h4 { @apply border-0 border-[#e7e7e7] text-[#4279CE] font-bold text-base leading-8 }
 
-p      { @apply font-text text-[#797979] text-sm leading-6 text-justify }
-ul, ol { @apply font-text text-[#797979] text-sm leading-6 text-justify pl-4 list-inside }
+p      { @apply font-text text-[#797979] text-[13px] leading-6 text-justify }
+ul, ol { @apply font-text text-[#797979] text-[13px] leading-6 text-justify pl-4 list-inside }
 
 article a { @apply text-link hover:underline }
 
@@ -20,5 +20,5 @@ blockquote p { @apply text-[#979797] text-xs text-center }
 img { @apply mx-auto }
 
 pre      { @apply bg-[#F1F1F1] p-4 break-all whitespace-pre-wrap }
-code     { @apply bg-[#DDE7FB] text-[#4279CE] text-sm py-0.5 px-1 break-all whitespace-pre-wrap }
+code     { @apply bg-[#DDE7FB] text-[#4279CE] text-[13px] py-0.5 px-1 break-all whitespace-pre-wrap }
 pre>code { @apply bg-[#F1F1F1] text-[#797979] p-0 break-all whitespace-pre-wrap }
