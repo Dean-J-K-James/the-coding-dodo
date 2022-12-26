@@ -1,8 +1,8 @@
 {% assign i = 0 %}
 {% for post in site.posts %}
 {% for tag in page.tags %}
-{% if post.tags contains tag and post.slug != page.slug and i < 3 %}
-{% include card.html %}
+{% if post.tags contains tag and post.slug != page.slug and i < 5 %}
+{% include result.html %}
 {% assign i = i | plus:1 %}
 {% break %}
 {% endif %}

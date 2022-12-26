@@ -19,9 +19,15 @@ defaults:
     values:
       layout: "two-column"
       permalink: blog/:slug
-      pages: [article-title, banner, article, all-posts-same-category]
+      pages: [article-title, banner, article, contact-me, similar-articles]
       sides: [author]
       width: [8, 4]
+  - scope:
+      path: ""
+      type: "category"
+    values:
+      layout: "one-column"
+      pages: [all-posts-same-category]
   - scope:
       path: ""
     values:
@@ -32,6 +38,11 @@ defaults:
     values:
       layout: "one-column"
       pages: [article]
+
+collections: 
+  category: 
+    output: true
+    permalink: :collection/:name
 
 ###################
 # --- Plugins --- #

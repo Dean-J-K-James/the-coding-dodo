@@ -601,12 +601,19 @@ video {
   position: relative;
 }
 
-.col-span-12 {
-  grid-column: span 12 / span 12;
+.inset-0 {
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
 }
 
-.m-0 {
-  margin: 0px;
+.z-10 {
+  z-index: 10;
+}
+
+.col-span-12 {
+  grid-column: span 12 / span 12;
 }
 
 .block {
@@ -653,10 +660,6 @@ video {
   width: 8rem;
 }
 
-.w-16 {
-  width: 4rem;
-}
-
 .min-w-0 {
   min-width: 0px;
 }
@@ -693,12 +696,12 @@ video {
   gap: 0.5rem;
 }
 
-.gap-4 {
-  gap: 1rem;
-}
-
 .gap-8 {
   gap: 2rem;
+}
+
+.gap-4 {
+  gap: 1rem;
 }
 
 .gap-1 {
@@ -783,12 +786,12 @@ video {
   font-weight: 700;
 }
 
-.leading-8 {
-  line-height: 2rem;
+.capitalize {
+  text-transform: capitalize;
 }
 
-.leading-\[4rem\] {
-  line-height: 4rem;
+.leading-8 {
+  line-height: 2rem;
 }
 
 .text-cook-text {
@@ -936,6 +939,11 @@ pre>code {
   padding: 0px;
   --tw-text-opacity: 1;
   color: rgb(121 121 121 / var(--tw-text-opacity));
+}
+
+.hover\:border-foot-accent-text:hover {
+  --tw-border-opacity: 1;
+  border-color: rgb(66 121 206 / var(--tw-border-opacity));
 }
 
 .hover\:bg-cook-accent:hover {

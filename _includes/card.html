@@ -1,9 +1,10 @@
-<a href="{{ post.url }}" class="flex flex-col col-span-12 gap-4 p-4 bg-body-accent rounded md:col-span-6 lg:col-span-4">
+<div class="flex flex-col col-span-12 gap-4 p-4 bg-body-accent rounded md:col-span-6 lg:col-span-4 relative">
+    <a href="{{ post.url }}" class="absolute inset-0"></a>
     <img src="/assets/images{{ post.url }}/banner.png">
     {% assign date = post.date | date: "%-d %B %Y" %}
     <h4>{{ post.title }}</h4>
     {% include subtitle.html text=date %}
     <p class="truncate">{{ post.description }}</p>
-    {% assign tags = post.tags | unshift: post.category %}
+    {% assign tags = post.tags %}
     {% include tags.html tags=tags %}
-</a>
+</div>

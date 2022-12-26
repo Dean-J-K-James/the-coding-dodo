@@ -2,32 +2,29 @@
 # --- Styles --- #
 ##################
 
-# Menus
-cook: lg:px-[20%] !hidden
-menu: lg:px-[20%]
-page: lg:px-[20%]
-foot: lg:px-[20%] p-8
-
 # Sections
 content:
   inc: content
   tag: div
-  css: flex flex-col gap-4 p-4 bg-body-accent
+  css: flex flex-col gap-4 p-4 bg-body-accent rounded
 
 all-posts:
   inc: all-posts
+  lbl: All Posts
   tag: div
   css: grid grid-cols-12 gap-4
 
 all-posts-same-category:
   inc: all-posts-same-category
+  lbl: Category Posts
   tag: div
   css: flex flex-col gap-4
 
 author:
   inc: author
+  lbl: Recommended Articles
   tag: div
-  css: flex flex-col gap-4 p-4 bg-body-accent rounded
+  css: flex flex-col gap-4
 
 article-title:
   inc: article-title
@@ -43,3 +40,21 @@ article:
   inc: content
   tag: article
   css: flex flex-col gap-8 p-4 bg-body-accent rounded
+
+tags:
+  inc: tags-section
+  lbl: Tags
+  tag: div
+  css: 
+
+contact-me:
+  inc: contact-me
+  lbl: Contact Me
+  tag: article
+  css: flex flex-col gap-8 p-4 bg-body-accent rounded
+
+similar-articles:
+  inc: similar-articles
+  lbl: Similar Articles
+  tag: div
+  css: flex flex-col gap-4

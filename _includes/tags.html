@@ -1,5 +1,5 @@
 <div class="flex flex-row gap-1">
     {% for tag in include.tags %}
-    <div class="border border-[#DDDDDD] text-[#979797] text-xs p-1">{{ tag }}</div>
+    <a href="/category/{{ tag }}" class="bg-body-accent hover:bg-foot-accent border border-[#DDDDDD] hover:border-foot-accent-text text-[#979797] hover:text-foot-accent-text text-xs p-1 px-2 rounded z-10">{{ tag }}</a>
     {% endfor %}
 </div>

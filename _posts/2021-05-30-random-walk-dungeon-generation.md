@@ -1,8 +1,7 @@
 ---
 title:       Random Walk Dungeon Generation
 description: Random walk uses a so-called walker cell to carve out a path in an n-dimensional grid, creating a fully connected graph that resembles a cave or dungeon. In this tutorial, the random walk algorithm is demonstrated on a two-dimensional tilemap.
-category:    Algorithms
-tags:        Caves
+tags:        [Algorithms]
 ---
 
 ## Generating Caves and Dungeons Using Random Walk

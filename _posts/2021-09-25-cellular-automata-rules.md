@@ -1,7 +1,7 @@
 ---
 title:       Cellular Automata Rules
 description: Explore the difference between totalistic, outer-totalistic and elementary cellular automata in one-dimensions, including how their rules are applied.
-category:    CellularAutomata
+tags:    [CellularAutomata]
 ---
 
 ## Types of Cellular Automata

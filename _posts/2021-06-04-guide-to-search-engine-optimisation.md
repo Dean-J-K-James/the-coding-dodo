@@ -1,8 +1,7 @@
 ---
 title:       Guide to Search Engine Optimisation
 description: Learn how to improve your website's search engine rank using these quick, simple techniques, including how to use meta tags, canonicalization, internal links, and proper use of headings.
-category:    Web
-tags:        SEO
+tags:        [Web, SEO]
 ---
 
 ## Introduction to Search Engine Optimisation

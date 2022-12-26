@@ -1,8 +1,7 @@
 ---
 title:       Placing Script Tags in HTML
 description: Websites with extra client-side functionality will likely load external JavaScript files using script tags. This tutorial explores these tags in more detail, including the async and defer keywords.
-category:    Web
-tags:        HTML JS
+tags:        [Web]
 ---
 
 ## Scripts Tags

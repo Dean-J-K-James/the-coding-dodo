@@ -1,0 +1,4 @@
+{% for tool in site.tools %}
+{% assign name = tool.slug %}
+{% include button.html link=name name=tool.title style='foot' %}
+{% endfor %}

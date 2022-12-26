@@ -1,7 +1,7 @@
 ---
 title:       Introduction to Cellular Automata
 description: Learn about cellular automata, including how they are structured, how they evolve according to a set of rules, and how they can be visualised in one-dimensions and two-dimensions.
-category:    CellularAutomata
+tags:    [CellularAutomata]
 ---
 
 ## What are Cellular Automata?

@@ -1,8 +1,7 @@
 ---
 title:       Using Markdown in PHP
 description: Markdown is a great language for writing reports, blogs, and more without all the boilerplate code and syntax of HTML. In this tutorial, learn how to write in Markdown, and how to translate it into PHP using the Parsedown library.
-category:    Web
-tags:        PHP Markdown
+tags:        [Web]
 ---
 
 ## Writing Articles in Markdown and PHP

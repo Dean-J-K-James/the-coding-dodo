@@ -2,5 +2,5 @@
 {% assign date = page.date | date: "%-d %B %Y" | prepend: 'Last Updated: ' %}
 {% include subtitle.html text=date %}
 <p>{{ page.description }}</p>
-{% assign tags = page.tags | unshift: page.category %}
+{% assign tags = page.tags %}
 {% include tags.html tags=tags %}

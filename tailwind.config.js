@@ -1,5 +1,5 @@
 module.exports = {
-    content: ["./_site/*.{html,js}", "./_site/blog/*.{html,js}"],
+    content: ["./_site/*.{html,js}", "./_site/**/*.{html,js}"],
     theme: {
         fontFamily: {
             'sans': ['Arial'],
