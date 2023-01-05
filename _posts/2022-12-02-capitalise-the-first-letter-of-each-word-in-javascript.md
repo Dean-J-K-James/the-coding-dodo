@@ -4,7 +4,7 @@ description: Sometimes we need to capitalise the first letter of each word in a 
 tags:        [JavaScript, Web]
 ---
 
-## Using Substring to Split the String into Words
+## Using Substring to Split the String Into Words
 
 When it comes to changing characters between lower case and upper case in JavaScript, there are a number of different approaches you can take. The most basic way however, is to use JavaScript's built in `toUpperCase()` function. This function can be called on any string, and converts all characters to their upper case equivalent.
 
@@ -13,7 +13,7 @@ For example, consider the following code:
     var sentence = "hello and welcome to my website";
     var capitals = sentence.toUpperCase();
 
-When executed, `capitals` would contain the entire string in upper case characters, like this: `HELLO AND WELCOME TO MY WEBSITE`. That isn't quite what we want though, since we desire only the first letter of each word to be capitalised. First things first though, let's look at capitalising a single character. We can get a single character from a string by using it's index like in an array. The first letter will be at index 0. The following code gets the first character from our string and converts it to an upper case character.
+When executed, `capitals` would contain the entire string in upper case characters, like this: `HELLO AND WELCOME TO MY WEBSITE`. That isn't quite what we want, since we desire only the first letter of each word to be capitalised. First things first though, let's look at capitalising a single character. We can get a single character from a string by using it's index like in an array. The first letter will be at index 0. The following code gets the first character from our string and converts it to an upper case character.
 
     var capitals = sentence[0].toUpperCase();
 
@@ -23,7 +23,7 @@ If we output the results of this code to the console, we get only the letter `H`
 
 This time, `capitals` contains the string: `Hello and welcome to my website`. Only the first character is capitalised.
 
-Now that we know how to capitalise only a specific character, we need some way of identifying the index of the first character of each new word. There are a few ways we can do this, but the easiest is probably to split our sentence into an array of individual words using the `split` function. This function splits a string into an array of smaller strings using a seperator character. Since the words in our sentence are split by a space, we use the `split` function with a space character as it's parameter.
+Now that we know how to capitalise only a specific character, we need some way of identifying the index of the first character of each new word. There are a few ways we can do this, but the easiest is probably to split our sentence into an array of individual words using the `split` function. This function splits a string into an array of smaller strings using a separator character. Since the words in our sentence are separated by a space, we use the `split` function with a space character as it's parameter.
 
     var sentence = "hello and welcome to my website";
     var words    = sentence.split(" ");
