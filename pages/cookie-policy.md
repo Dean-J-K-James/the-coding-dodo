@@ -2,6 +2,7 @@
 title:       Cookie Policy
 permalink:   cookie-policy
 description: Cookie policy for this website.
+layout:      post
 ---
 
 # Cookie Policy

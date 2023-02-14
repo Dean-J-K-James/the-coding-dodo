@@ -9,40 +9,27 @@ url: "https://thecodingdodo.com"
 # --- Default Options for All Pages --- #
 #########################################
 
-title: no-title
-excerpt: no-description
-
 defaults:
   - scope:
       path: ""
       type: "posts"
     values:
-      layout: "two-column"
+      layout: "post-banner"
       permalink: blog/:slug
-      pages: [article-title, banner, article, contact-me, similar-articles]
-      sides: [author]
-      width: [8, 4]
   - scope:
       path: ""
       type: "category"
     values:
-      layout: "one-column"
-      pages: [all-posts-same-category]
-  - scope:
-      path: ""
-    values:
-      layout: "default"
-  - scope:
-      path: ""
-      type: "pages"
-    values:
-      layout: "one-column"
-      pages: [article]
+      layout: "category"
 
-collections: 
-  category: 
+#######################
+# --- Collections --- #
+#######################
+
+collections:
+  category:
     output: true
-    permalink: :collection/:name
+    permalink: category/:name
 
 ###################
 # --- Plugins --- #

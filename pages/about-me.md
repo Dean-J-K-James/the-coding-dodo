@@ -2,6 +2,7 @@
 title:       About Me
 permalink:   about-me
 description: About me
+layout:      post
 ---
 
 # About Me

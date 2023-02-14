@@ -2,23 +2,23 @@
 @tailwind components;
 @tailwind utilities;
 
-h1 { @apply border-b border-[#e7e7e7] text-[#4279CE] font-bold text-3xl leading-[3.5rem] }
-h2 { @apply border-b border-[#e7e7e7] text-[#4279CE] font-bold text-xl leading-[2.75rem] }
-h3 { @apply border-b border-[#e7e7e7] text-[#4279CE] font-bold text-sm leading-8 }
-h4 { @apply border-0 border-[#e7e7e7] text-[#4279CE] font-bold text-base leading-8 }
+article h1 { @apply border-b border-border text-h1 font-bold text-3xl leading-[3.5rem] }
+article h2 { @apply border-b border-border text-h2 font-bold text-xl leading-[2.75rem] }
+article h3 { @apply border-b border-border text-h3 font-bold text-sm leading-8 }
+article h4 { @apply border-0 border-border text-h4 font-bold text-lg }
 
-p      { @apply font-text text-[#797979] text-[13px] leading-6 text-justify }
-ul, ol { @apply font-text text-[#797979] text-[13px] leading-6 text-justify pl-4 list-inside }
+article p              { @apply font-text text-p text-[13px] leading-6 text-justify }
+article ul, article ol { @apply font-text text-p text-[13px] leading-6 text-justify pl-4 list-inside }
 
-article a { @apply text-link hover:underline }
+article a { @apply text-a hover:underline }
 
-ul { @apply list-disc }
-ol { @apply list-decimal }
+article ul { @apply list-disc }
+article ol { @apply list-decimal }
 
-blockquote p { @apply text-[#979797] text-xs text-center }
+article blockquote p { @apply text-subtitle text-xs text-center }
 
-img { @apply mx-auto }
+article img { @apply mx-auto }
 
-pre      { @apply bg-[#F1F1F1] p-4 break-all whitespace-pre-wrap }
-code     { @apply bg-[#DDE7FB] text-[#4279CE] text-[13px] py-0.5 px-1 break-all whitespace-pre-wrap }
-pre>code { @apply bg-[#F1F1F1] text-[#797979] p-0 break-all whitespace-pre-wrap }
+article pre      { @apply bg-[#F1F1F1] p-4 break-all whitespace-pre-wrap }
+article code     { @apply bg-[#DDE7FB] text-[#2E65BA] text-[13px] py-0.5 px-1 break-all whitespace-pre-wrap }
+article pre>code { @apply bg-[#F1F1F1] text-[#797979] p-0 break-all whitespace-pre-wrap }

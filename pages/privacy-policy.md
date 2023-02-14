@@ -2,6 +2,7 @@
 title:       Privacy Policy
 permalink:   privacy-policy
 description: Privacy policy for this website.
+layout:      post
 ---
 
 # Privacy Policy

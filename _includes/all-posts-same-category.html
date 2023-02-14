@@ -1,6 +1,0 @@
-{% for post in site.posts %}
-{% assign tags = post.tags | downcase %}
-{% if tags contains page.slug %}
-{% include result.html %}
-{% endif %}
-{% endfor %}
